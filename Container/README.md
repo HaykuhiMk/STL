@@ -16,12 +16,10 @@ The repository contains the following container classes:
 
 5. Deque: A double-ended queue that supports insertion and deletion at both ends. It provides constant-time access to the first and last elements, making it suitable for scenarios that require efficient insertion and deletion at both ends.
 
-6. Set: A container that stores unique elements in a specific order. It ensures that no duplicate elements are present and provides efficient insertion, removal, and search operations.
+6. Bit Vector: A container that represents a sequence of bits efficiently. It allows manipulation of individual bits, providing bitwise operations such as setting, clearing, toggling, and querying bit values.
 
-7. Map: A container that stores key-value pairs in a specific order. It guarantees unique keys and allows efficient search, insertion, and deletion based on the keys.
-
-8. Unordered Set: A container that stores unique elements without any specific order. It provides constant-time average complexity for insertion, removal, and search operations.
-
-9. Unordered Map: A container that stores key-value pairs without any specific order. It allows efficient search, insertion, and deletion based on the keys, providing constant-time average complexity.
+7. Forward List: A singly-linked list that allows efficient insertion and deletion at the beginning or anywhere within the list. It does not provide constant-time random access to elements but is useful for scenarios that involve frequent modifications and traversal in a forward direction.
+   
+8. String: A container that represents a sequence of characters, providing various string manipulation operations.
 
 Each container class is implemented with appropriate member functions and operators to perform common operations and interact with the stored elements.
