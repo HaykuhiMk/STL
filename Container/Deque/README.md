@@ -4,5 +4,9 @@ The Deque class provides a double-ended queue data structure, allowing efficient
 
 ## Features
 Supports dynamic resizing to accommodate a varying number of elements.
+
 Provides constant time complexity for insertion and deletion at both ends.
+
 Supports random access to elements with constant time complexity.
+
+Allows efficient insertion and deletion in the middle of the deque.
